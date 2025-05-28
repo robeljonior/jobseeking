@@ -1,4 +1,4 @@
-package com.example.notification.dto.request;
+package com.example.notification.dto.request.jobs;
 
 public class Jobname {
 

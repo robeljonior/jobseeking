@@ -1,8 +1,8 @@
-package com.example.notification.controller;
+package com.example.notification.controller.jobsController;
 
 import com.example.notification.dto.JobsDto;
 import com.example.notification.response.BaseResponseDto;
-import com.example.notification.service.JobsService;
+import com.example.notification.service.jobsAndAplication.JobsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

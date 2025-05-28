@@ -1,11 +1,11 @@
-package com.example.notification.controller;
+package com.example.notification.controller.jobsController;
 
 import com.example.notification.dto.SubCatagoryDto;
-import com.example.notification.dto.request.Jobname;
+import com.example.notification.dto.request.jobs.Jobname;
 import com.example.notification.response.BaseListDto;
 import com.example.notification.response.BaseResponseDto;
 import com.example.notification.response.ResponseDto;
-import com.example.notification.service.SubjobsService;
+import com.example.notification.service.jobsAndAplication.SubjobsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

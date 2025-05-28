@@ -1,9 +1,9 @@
-package com.example.notification.service;
+package com.example.notification.service.jobsAndAplication;
 
 import com.example.notification.Repository.CreateJobsRepository;
 import com.example.notification.Repository.SubJobsRepository;
-import com.example.notification.dto.request.CreateJobsDto;
-import com.example.notification.model.CreateJobs;
+import com.example.notification.dto.request.jobs.CreateJobsDto;
+import com.example.notification.model.Jobs.CreateJobs;
 import com.example.notification.model.Jobs.SubCategory;
 import com.example.notification.response.BaseResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;

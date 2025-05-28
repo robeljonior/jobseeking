@@ -1,4 +1,4 @@
-package com.example.notification.model;
+package com.example.notification.model.Jobs;
 
 import com.example.notification.model.Jobs.SubCategory;
 import jakarta.persistence.*;

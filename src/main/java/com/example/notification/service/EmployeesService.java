@@ -63,6 +63,7 @@ public class EmployeesService {
         if (!response.isStatus()) {
             return response;
         }
+        response = validate(request.getEmail());
 
 
         Optional<Agents> existing = agentRepository.findByEmail(request.getEmail());
@@ -89,8 +90,28 @@ public class EmployeesService {
         return response;
     }
 
-    private response chakeemail(String email) {
+    private BaseResponseDto validate(String email) {
+        BaseResponseDto response = new BaseResponseDto();
+
+        if (email == null || email.trim().isEmpty()) {
+            response.setStatus(false);
+            response.setStatusDesc("Email cannot be null or empty");
+            return response;
+        }
+
+        // Simple email regex pattern (you can use a more strict one if needed)
+        String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
+        if (!email.matches(emailRegex)) {
+            response.setStatus(false);
+            response.setStatusDesc("Invalid email format");
+            return response;
+        }
+
+        response.setStatus(true);
+        response.setStatusDesc("Email is valid");
+        return response;
     }
+
 
 
     // Update employee

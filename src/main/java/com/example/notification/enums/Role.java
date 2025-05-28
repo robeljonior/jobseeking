@@ -1,4 +1,4 @@
-package com.example.notification.model.Jobs;
+package com.example.notification.enums;
 
 public enum Role {
     ADMIN,

@@ -1,9 +1,9 @@
-package com.example.notification.service;
+package com.example.notification.service.jobsAndAplication;
 
 import com.example.notification.Repository.JobsRepo;
 import com.example.notification.Repository.SubJobsRepository;
 import com.example.notification.dto.SubCatagoryDto;
-import com.example.notification.dto.request.Jobname;
+import com.example.notification.dto.request.jobs.Jobname;
 import com.example.notification.model.Jobs.Jobs;
 import com.example.notification.model.Jobs.SubCategory;
 import com.example.notification.response.BaseListDto;

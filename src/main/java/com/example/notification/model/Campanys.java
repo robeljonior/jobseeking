@@ -1,6 +1,6 @@
 //package com.example.notification.model;
 //
-//import com.example.notification.model.Jobs.Role;
+//import com.example.notification.enums.Role;
 //import jakarta.persistence.*;
 //import lombok.Data;
 //import org.springframework.security.core.GrantedAuthority;

@@ -1,7 +1,7 @@
 package com.example.notification.response;
 
 
-import com.example.notification.model.CreateJobs;
+import com.example.notification.model.Jobs.CreateJobs;
 
 public class BaseResponseDto<T> {
     private boolean status;

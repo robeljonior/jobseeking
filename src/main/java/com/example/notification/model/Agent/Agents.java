@@ -2,7 +2,7 @@ package com.example.notification.model.Agent;
 
 
 import com.example.notification.dto.request.EmployeesDto;
-import com.example.notification.model.Jobs.Role;
+import com.example.notification.enums.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

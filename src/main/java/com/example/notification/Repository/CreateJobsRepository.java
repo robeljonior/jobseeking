@@ -1,6 +1,6 @@
 package com.example.notification.Repository;
 
-import com.example.notification.model.CreateJobs;
+import com.example.notification.model.Jobs.CreateJobs;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

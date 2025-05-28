@@ -1,4 +1,4 @@
-package com.example.notification.service;
+package com.example.notification.service.jobsAndAplication;
 
 import com.example.notification.Repository.JobsRepo;
 import com.example.notification.dto.JobsDto;
