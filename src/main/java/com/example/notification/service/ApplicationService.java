@@ -142,7 +142,6 @@ public class ApplicationService {
         return responseDto;
     }
 
-
     public BaseListDto getAgentsByJobId(Long jobId) {
         BaseListDto responseDto = new BaseListDto();
 
